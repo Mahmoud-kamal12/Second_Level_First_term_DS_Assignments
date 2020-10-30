@@ -107,7 +107,7 @@ public:
 
 	student(string name , int id , int degrees[]):name(name) , ID(id) , total_degrees(0)
 	{
-		int size = sizeof(this->degrees) / sizeof(this->degrees[0]); // to found size of array
+		int size = sizeof(this->degrees) / sizeof(this->degrees[0]); // To find the size.
 
 		for (int i = 0; i < size; i++)
 		{
